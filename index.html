@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cestaria - Black Friday</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body onload= "cronometro()" >
+    <header id = 'cabecalho'>
+            <img class = 'LogoCestaria' src ="imagens/logoCestaria.png">
+        <nav>
+            <button id = 'BotaoPesquisar'>OK</button><input class = 'InputPesquisa' placeholder=" Encontre aqui as melhores ofertas" >
+            
+        </nav>
+    </header>
+    <main>
+        <div class = 'Banner'>
+            <img src = 'imagens/logoBF.png'>
+            <div id = 'cronometro'>
+                <span class = 'spanCont' >Dias</span>
+                <span class = 'spanCont' >Horas</span>
+                <span class = 'spanCont' >Minutos</span>
+                <span class = 'spanCont' >Segundos</span>
+            </div>
+        </div>
+        <form id = 'formularioCadastro' class = 'FormularioCliente'>
+            <p>Faça seu cadastro agora para receber as melhores ofertas da Black Friday</p>
+            <input type = 'text' id = 'nomeCliente' class = 'InputForm' placeholder="Digite seu nome aqui">
+            <input type = 'text' id = 'emailCliente' class = 'InputForm' placeholder="Digite seu e-mail aqui">
+            <input type = 'submit' class = 'BotaoCadastrar'>
+        </form>
+        <section class="sectionProdutos">
+            <div class="card_produto">
+                <img class="img_produto" src="imagens/cesta1.jpeg">
+                <span class = 'tituloProduto'>Cesta de chocolate G</span>
+                <span class = 'textoProduto'>Cesta de chocolate tamanho grande para até 2 pessoas</span>
+                <span class = 'descontoProduto'>De R$250,00</span>
+                <span class = 'Preço'>Por R$200,00</span>
+                <button class= 'botao_adicionar_carrinho'><img style="width: 30px;height: 30px;" src="imagens/botao_carrinho.png"></button>
+            </div>
+            <div class="card_produto">
+                <img class="img_produto" src="imagens/cesta2.jpeg">
+                <span class = 'tituloProduto'>Cesta de Café Família</span>
+                <span class = 'textoProduto'>Cesta de café da manhã tamanho grande para até 3 pessoas</span>
+                <span class = 'descontoProduto'>De R$240,00</span>
+                <span class = 'Preço'>Por R$200,00</span>
+                <button class= 'botao_adicionar_carrinho'><img style="width: 30px;height: 30px;" src="imagens/botao_carrinho.png"></button>
+            </div>
+            <div class="card_produto">
+                <img class="img_produto" src="imagens/cesta3.jpeg">
+                <span class = 'tituloProduto'>Baú Happy Hour</span>
+                <span class = 'textoProduto'>Baú de cerveja e aperitivos para até 2 pessoas</span>
+                <span class = 'descontoProduto'>De R$280,00</span>
+                <span class = 'Preço'>Por R$260,00</span>
+                <button class= 'botao_adicionar_carrinho'><img style="width: 30px;height: 30px;" src="imagens/botao_carrinho.png"></button>
+            </div>
+            <div class="card_produto">
+                <img class="img_produto" src="imagens/cesta4.jpeg">
+                <span class = 'tituloProduto'>Cesta Cervejeira</span>
+                <span class = 'textoProduto'>Cesta de cerveja e aperitivos para 1 pessoas</span>
+                <span class = 'descontoProduto'>De R$200,00</span>
+                <span class = 'Preço'>Por R$170,00</span>
+                <button class= 'botao_adicionar_carrinho'><img style="width: 30px;height: 30px;" src="imagens/botao_carrinho.png"></button>
+            </div>
+    </section>
+    </main>
+    <footer>
+        Todos os direitos reservados
+    </footer>
+</body>
+<script src='index.js' type="text/javascript"></script>
+</html>
