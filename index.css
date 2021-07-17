@@ -2,6 +2,9 @@
     margin: 0px;
     padding: 0px;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     flex-wrap: wrap;
     display: flex;
@@ -20,8 +23,7 @@ header{
 main{
     display: flex;
     flex-wrap: wrap;
-    margin-top: 30px;
-    width: 85%;
+    width: 95%;
     justify-content: center;
     align-items: center;
 }
@@ -46,14 +48,20 @@ footer{
     align-items: center;
 }
 
+p{
+    font-size: 2rem;
+    width: 650px;
+}
+
 .InputForm{
     font-size: 1.4rem;
-    width: 450px;
+    width:650px;
     height: 2rem;
     color: white;
+    padding-left: 10px;
     border: none;
     border-bottom: 1px solid white;
-    background-color: black;
+    background-color: #000;
 }
 
 .LogoCestaria{
@@ -65,7 +73,7 @@ footer{
     font-size: 1.3rem;
     margin: auto 0px;
     height: 2.9rem;
-    max-width: 700px;
+    max-width: 600px;
     min-width: 350px;
     width: 80%;
     border: 1px solid;
@@ -91,28 +99,31 @@ footer{
     box-shadow: none;
 }
 .FormularioCliente{
-    margin: 0 40px;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
-    justify-content: left;
-    text-align: left;
-    padding: 15px;
+    align-items: center;
+    justify-content: space-between;
+    text-align: justify;
+    margin-top: 95px;
     color: white;
     font: 1.5rem sans-serif;
-    height: 400px;
-    width: 500px;
+    height: 500px;
+    width:700px;
 }
 
 .Banner{
-    margin: 0 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 65px;
     height: 500px;
-    width: 600px;
+    width: 700px;
 }
 .BotaoCadastrar{
+    position: relative;
+    bottom: 50px;
     cursor: pointer;
     margin: 0 auto;
     height: 2.5rem;
@@ -131,17 +142,19 @@ footer{
     margin-top: 80px;
     align-items: center;
     text-align: center;
-    width: 490px;
+    width: 600px;
     font-size: 1.2rem;
     color: white;
 }
 .spanCont{
-    width: 100px;
+    margin: 0 10px;
+    width: 120px;
 }
 .contadores{
+    margin: 0 10px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    width: 100px;
-    font-size: 4rem;
+    width: 120px;
+    font-size: 6rem;
 }
 
 #cabecalho{
@@ -155,7 +168,7 @@ footer{
 .sectionProdutos{
     flex-wrap: wrap;
     display:flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     width: 100%;
     height: 100vh;
@@ -170,7 +183,7 @@ footer{
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 0 20px;
+    margin: 0 80px;
     color: white;
     width: 570px;
     height: 280px;
@@ -210,7 +223,22 @@ footer{
     width: 75px;
     border-radius: 10px;
 }
-.botaoVerMais{
+.VerMais{
+    text-decoration: none;
+    position: relative;
+    bottom: 30px;
+    font-size: 1.5rem;
     color: white;
 }
+.VerMais:visited{
+    text-decoration: none;
+    position: relative;
+    bottom: 30px;
+    font-size: 1.5rem;
+    color: white;
+}.VerMais:hover{
+    color: rgb(255, 196, 2);
+}
+
+
 
