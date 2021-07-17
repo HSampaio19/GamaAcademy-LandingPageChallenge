@@ -142,16 +142,16 @@ p{
     margin-top: 80px;
     align-items: center;
     text-align: center;
-    width: 600px;
+    width: 650px;
     font-size: 1.2rem;
     color: white;
 }
 .spanCont{
-    margin: 0 10px;
+    margin: 0 20px;
     width: 120px;
 }
 .contadores{
-    margin: 0 10px;
+    margin: 0 20px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     width: 120px;
     font-size: 6rem;
